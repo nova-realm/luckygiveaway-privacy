@@ -32,13 +32,13 @@ We do not sell user data, and we do not use any collected data to train machine 
 
 ## 3. Message Content
 
-The Bot supports both slash commands and legacy prefix commands (e.g., `!gstart`). When a prefix command is used, the Bot reads the content of that specific message to extract command parameters (such as prize, duration, and winner count). This parsed configuration data is stored as described in Section 1; the raw message text itself is not retained after processing.
+The Bot supports both slash commands and legacy prefix commands (e.g., `l!start`). When a prefix command is used, the Bot reads the content of that specific message to extract command parameters (such as prize, duration, and winner count). This parsed configuration data is stored as described in Section 1; the raw message text itself is not retained after processing.
 
 Users who prefer not to have any message content read by the Bot can use slash commands exclusively, which do not require the Message Content intent.
 
 ## 4. Data Retention
 
-Giveaway data is retained for as long as the Bot remains in a server, in order to support features like rerolling past giveaways. If the Bot is removed from a server, associated data will be deleted from our systems within [INSERT YOUR RETENTION PERIOD, e.g., "30 days"]. Server administrators may also request earlier deletion of their server's data by contacting us (see Section 7).
+Giveaway data is retained for as long as the Bot remains in a server, in order to support features like rerolling past giveaways. If the Bot is removed from a server, associated data will be deleted from our systems within "7 days". Server administrators may also request earlier deletion of their server's data by contacting us (see Section 7).
 
 ## 5. Data Sharing
 
@@ -53,7 +53,7 @@ Data is stored in a private database that is not publicly accessible. We take re
 ## 7. Your Choices and Rights
 
 - **Opting out:** Users can choose not to enter giveaways, and can avoid prefix-command message content processing by using slash commands only.
-- **Data deletion requests:** Users or server administrators may request deletion of associated data by contacting us at [INSERT CONTACT EMAIL OR SUPPORT SERVER LINK].
+- **Data deletion requests:** Users or server administrators may request deletion of associated data by contacting us at "https://discord.gg/A9GrVSM7Et".
 - **Removing the Bot:** Removing the Bot from a server stops any further data collection from that server.
 
 ## 8. Children's Privacy
@@ -67,4 +67,4 @@ We may update this Privacy Policy from time to time. Material changes will be re
 ## 10. Contact
 
 If you have questions about this Privacy Policy or wish to make a data request, contact us at:
-[INSERT CONTACT EMAIL OR SUPPORT SERVER INVITE LINK]
+https://discord.gg/A9GrVSM7Et
